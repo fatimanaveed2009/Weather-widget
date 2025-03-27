@@ -12,6 +12,9 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { CloudIcon, MapPinIcon, ThermometerIcon } from "lucide-react";
 
+console.log("API Key:", process.env.NEXT_PUBLIC_WEATHER_API_KEY);
+
+
 interface WeatherData {
   temperature: number;
   description: string;
